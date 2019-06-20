@@ -14,6 +14,8 @@
 		10FB1AF722BBAC8B0044EC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FB1AF522BBAC8B0044EC1E /* LaunchScreen.storyboard */; };
 		10FB1B0222BBAC8B0044EC1E /* weather_zaichkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FB1B0122BBAC8B0044EC1E /* weather_zaichkinTests.swift */; };
 		10FB1B0D22BBAC8B0044EC1E /* weather_zaichkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FB1B0C22BBAC8B0044EC1E /* weather_zaichkinUITests.swift */; };
+		10FB1B1D22BBB7B20044EC1E /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FB1B1C22BBB7B20044EC1E /* CityTableViewController.swift */; };
+		10FB1B1F22BBBAB40044EC1E /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FB1B1E22BBBAB40044EC1E /* CellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		10FB1B0822BBAC8B0044EC1E /* weather-zaichkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-zaichkinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FB1B0C22BBAC8B0044EC1E /* weather_zaichkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_zaichkinUITests.swift; sourceTree = "<group>"; };
 		10FB1B0E22BBAC8B0044EC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FB1B1C22BBB7B20044EC1E /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		10FB1B1E22BBBAB40044EC1E /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				10FB1AEC22BBAC890044EC1E /* AppDelegate.swift */,
 				10FB1AEE22BBAC890044EC1E /* ViewController.swift */,
+				10FB1B1C22BBB7B20044EC1E /* CityTableViewController.swift */,
+				10FB1B1E22BBBAB40044EC1E /* CellTableViewCell.swift */,
 				10FB1AF022BBAC890044EC1E /* Main.storyboard */,
 				10FB1AF322BBAC8B0044EC1E /* Assets.xcassets */,
 				10FB1AF522BBAC8B0044EC1E /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FB1B1D22BBB7B20044EC1E /* CityTableViewController.swift in Sources */,
+				10FB1B1F22BBBAB40044EC1E /* CellTableViewCell.swift in Sources */,
 				10FB1AEF22BBAC890044EC1E /* ViewController.swift in Sources */,
 				10FB1AED22BBAC890044EC1E /* AppDelegate.swift in Sources */,
 			);
